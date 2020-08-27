@@ -33,7 +33,7 @@ docker-compose up -d
 
 ## Setting up RabbitMQ (for development and production)
 
-`rabbitmq:3-management` contains UI plugin for queue management. Plugin port is 8080 (15672 in container).
+`rabbitmq:3-management` contains UI plugin for queue management. Plugin port is 8080 (5672 in container).
 Login **guest/guest**.
 
 Login to RabbitUI here: http://localhost:8080
